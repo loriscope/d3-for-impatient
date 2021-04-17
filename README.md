@@ -1,0 +1,1 @@
+git repo: https://github.com/loriscope/d3-for-impatient.git
