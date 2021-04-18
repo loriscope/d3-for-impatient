@@ -1,0 +1,1 @@
+python -m http.server -d ./project 8080

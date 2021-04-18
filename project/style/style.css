@@ -1,5 +1,30 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    padding: 20px;
+    background-color: rgb(184, 179, 179);
+    /* padding: 20px; */
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    margin: 20px;
+    border-style: dotted;
+    border-width: thin;
+    padding: 15px;
+}
+
+.circle {
+    fill: blue;
+}
+
+.strong {
+    fill: red;
+}
+
+#fig1 {
+    border-color: white;
+    border-width: 5px;
 }

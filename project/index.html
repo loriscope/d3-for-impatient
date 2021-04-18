@@ -2,6 +2,8 @@
 References:
     https://github.com/d3/d3
     https://d3js.org/
+    https://developer.mozilla.org/en-US/docs/Web/SVG
+    https://en.wikipedia.org/wiki/B%C3%A9zier_curve
 
 Starting the server:
     location:   C:\Users\laure\OneDrive\Education\d3> 
@@ -22,7 +24,62 @@ Starting the server:
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <p>Test</p>
-    <svg id="fig1" width="500" height="300" />
+    <div>
+        <svg id="fig1" width="200" height="150" viewBox="0 0 200 150">>
+            <!-- <path d="M40 50 L70 60 L70 40 Z" /> -->
+            <!-- <path d="M40 50 L70 60 L70 40 Z" fill="black" stroke="black"></path> -->
+            <!-- <text x="0" y="0" transform="translate(100,50) rotate(15)">Hello W</text> -->
+            <circle class="circle" cx="55" cy="55" r="50"></circle>
+            <rect x="10" y="10" rx="5" ry="5" width="30" height="30" 
+                stroke="black" fill="transparent" stroke-width="5"></rect>
+            <polygon 
+                points="
+                    50 40 
+                    60 50 
+                    70 50 
+                    80 40 
+                    90 40 
+                    80 60 
+                    70 70 
+                    60 80", 
+                stroke="orange" fill="transparent" stroke-width="2"></polygon>
+            <path d="
+                M40 100 
+                L70 110 
+                Q80 100 70 90 Z" 
+            fill="none" stroke="white" stroke-width="1"></path>            
+        </svg>
+    </div>
+    <div>
+        <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            width="300" height="200">
+            <rect width="100%" height="100%" fill="red"></rect>
+            <circle cx="150" cy="100" r="80" fill="green"></circle>
+            <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+        </svg>
+    </div>
+    <div>
+        <svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 130 110 C 120 140, 180 140, 170 20" stroke="black" fill="transparent" stroke-width="2" />
+            <circle cx="130" cy="110" r="2" fill="red" />
+            <circle cx="120" cy="140" r="2" fill="red" />
+            <circle cx="180" cy="140" r="2" fill="yellow" />
+            <circle cx="170" cy="20" r="2" fill="yellow" />
+            <line x1="130" x2="120" y1="110" y2="140" stroke="red" stroke-width="1" />
+            <line x1="180" x2="170" y1="140" y2="20" stroke="yellow" stroke-width="1" />
+        </svg>
+    </div>
+    <div>
+        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <g id="doublecircle">
+                    <circle cx="0" cy="0" r="3" fill="red" />
+                    <circle cx="20" cy="20" r="5" fill="green" stroke="white" />
+                </g>
+            </defs>
+            <use x="10" y="20" href="#doublecircle" />
+        </svg>
+    </div>
 </body>
 </html>
