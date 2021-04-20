@@ -25,63 +25,29 @@ Starting the server:
 </head>
 <body>
     <div>
-        <svg id="fig1" width="200" height="150" viewBox="0 0 200 150">>
-            <!-- <path d="M40 50 L70 60 L70 40 Z" /> -->
-            <!-- <path d="M40 50 L70 60 L70 40 Z" fill="black" stroke="black"></path> -->
-            <!-- <text x="0" y="0" transform="translate(100,50) rotate(15)">Hello W</text> -->
-            <circle class="circle" cx="55" cy="55" r="50"></circle>
-            <rect x="10" y="10" rx="5" ry="5" width="30" height="30" 
-                stroke="black" fill="transparent" stroke-width="5"></rect>
-            <polygon 
-                points="
-                    50 40 
-                    60 50 
-                    70 50 
-                    80 40 
-                    90 40 
-                    80 60 
-                    70 70 
-                    60 80", 
-                stroke="orange" fill="transparent" stroke-width="2"></polygon>
-            <path d="
-                M40 100 
-                L70 110 
-                Q80 100 70 90 Z" 
-            fill="none" stroke="white" stroke-width="1"></path>            
-        </svg>
-    </div>
-    <div>
         <svg 
             xmlns="http://www.w3.org/2000/svg"
-            width="300" height="200">
-            <rect width="100%" height="100%" fill="red"></rect>
-            <circle cx="150" cy="100" r="80" fill="green"></circle>
-            <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+            width="200" height="100">
+            <rect width="50%" height="100%" fill="red"></rect>
+            <circle cx="50" cy="50" r="40" fill="green"></circle>
+            <text x="50" y="62.5" font-size="30" text-anchor="middle" fill="white">SVG</text>
         </svg>
     </div>
     <div>
-        <svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+        <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
             <path d="
                 M 130 110 
-                C 120 140, 
-                180 140, 
-                170 20" 
+                C 120 140, 180 140, 170 20" 
                 stroke="black" fill="transparent" stroke-width="2" />
             <text text-anchor="end" x="130" y="110" font-size="10px" fill="white">1. (130, 110)</text>
             <text text-anchor="end" x="120" y="140" font-size="10px" fill="white">2. (120, 140)</text>
             <text text-anchor="start" x="180" y="140" font-size="10px" fill="white">(180, 140)</text>
             <text text-anchor="start" x="170" y="20" font-size="10px" fill="white">(170, 20)</text>
-            <!-- <circle cx="130" cy="110" r="2" fill="red" />
-            <circle cx="120" cy="140" r="2" fill="red" />
-            <circle cx="180" cy="140" r="2" fill="yellow" />
-            <circle cx="170" cy="20" r="2" fill="yellow" /> -->
             <line x1="130" x2="120" y1="110" y2="140" stroke="red" stroke-width="1" />
             <line x1="180" x2="170" y1="140" y2="20" stroke="yellow" stroke-width="1" />
             <path d="
                 M 420 140  
-                C 430 110, 
-                480 140, 
-                470 20" 
+                C 430 110, 480 140, 470 20" 
                 stroke="black" fill="transparent" stroke-width="2" />
                 <text text-anchor="end" x="420" y="140" font-size="10px" fill="pink">1. (420, 140)</text>
                 <text text-anchor="end" x="430" y="110" font-size="10px" fill="pink">2. (430, 110)</text>
@@ -96,14 +62,11 @@ Starting the server:
         </svg>
     </div>
     <div>
-        <svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+        <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
             <path d="
                 M 10 80
-                C 40 10, 
-                65 10, 
-                95 80 
-                S 150 150, 
-                180 80" 
+                C 40 10, 65 10, 95 80 
+                S 150 150, 180 80" 
                 stroke="green" stroke-width="3" fill="transparent" />
             <text text-anchor="end" x="10" y="80" font-size="12px" fill="white">1</text>
             <text text-anchor="start" x="40" y="10" font-size="12px" fill="white">2</text>
@@ -112,20 +75,14 @@ Starting the server:
             <text text-anchor="end" x="65" y="10" font-size="12px" fill="white">3</text>
             <text text-anchor="start" x="95" y="80" font-size="12px" fill="white">4</text>
             <line x1="65" x2="95" y1="10" y2="80" stroke="white" stroke-width="1" stroke-dasharray="2,2" />
-            <!-- <circle cx="95" cy="80" r="2" fill="blue" />
-            <circle cx="125" cy="150" r="2" fill="red" /> -->
-            <!-- <text text-anchor="end" x="95" y="80" font-size="12px" fill="blue">a</text>
-            <text text-anchor="start" x="125" y="150" font-size="12px" fill="blue">b</text> -->
             <line x1="95" x2="125" y1="80" y2="150" stroke="red" stroke-width="1" stroke-dasharray="2,2" />      
             <text text-anchor="end" x="150" y="150" font-size="12px" fill="white">5</text>
             <text text-anchor="start" x="180" y="80" font-size="12px" fill="white">6</text>
             <line x1="150" x2="180" y1="150" y2="80" stroke="white" stroke-width="1" stroke-dasharray="2,2" />
             <path d="
                 M 310 80 
-                Q 350 10, 
-                390 80 
-                T 470 80 
-                430 10" 
+                Q 350 10, 390 80 
+                T 470 80 430 10" 
                 stroke="green" stroke-width="3" fill="transparent" />       
             <text text-anchor="end" x="310" y="80" font-size="10px" fill="white">(310, 80)</text>
             <text text-anchor="middle" x="350" y="10" font-size="10px" fill="white">(350, 10)</text>
@@ -135,6 +92,25 @@ Starting the server:
             <circle cx="470" cy="80" r="1" fill="white" />              
             <text text-anchor="start" x="470" y="80" font-size="10px" fill="white">(470, 80)</text>
             <text text-anchor="end" x="430" y="10" font-size="10px" fill="white">(430, 10)</text>
+        </svg>
+    </div>
+    <div>
+        <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+            <path d="
+                M 10 315
+                L 110 215
+                A 30 50 0 0 1 162.55 162.45
+                L 172.55 152.45
+                A 30 50 -45 0 1 215.1 109.9
+                L 315 10" 
+                stroke="black" stroke-width="2" fill="green" fill-opacity="0.4" />
+            <text x="10" y="315" text-anchor="start" font-size="10px" fill="white">(10, 315)</text>
+            <text x="110" y="215" text-anchor="end" font-size="10px" fill="white">(110, 215)</text>
+            <text x="162.55" y="162.45" text-anchor="start" font-size="10px" fill="white">(162.55, 162.45)</text>
+            <line x1="10" x2="315" y1="315" y2="10" stroke="yellow" stroke-dasharray="2,2" stroke-width="1" />
+            <line x1="100" x2="415" y1="315" y2="10" stroke="green" stroke-width="10" />
+            <line x1="150" x2="455" y1="315" y2="10" stroke="green" stroke-linecap="round" stroke-width="10" />
+            <line x1="50" x2="550" y1="10" y2="10" stroke="white" stroke-width="1" />
         </svg>
     </div>
 </body>
